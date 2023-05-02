@@ -1,0 +1,21 @@
+.titles{
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+#container-main{
+    padding-top: 10px;
+    padding-left:10px;
+}
+#card-img{
+  background-position: center;
+  background-size: cover;
+  height: 286px;
+  width: 27rem;
+}
+#card{
+  width: 27rem;
+}
+.movie-title{
+  text-decoration: none;
+}

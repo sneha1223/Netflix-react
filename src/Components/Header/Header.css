@@ -1,0 +1,21 @@
+.netflix{
+ position: absolute;
+ top: -11px;
+ left: 3rem;
+ width: 90px;
+ height: 75px;
+}
+
+.home{
+    margin-left: 50rem;
+    font-size: 20px;
+    color: grey;
+    margin-left: 45rem;
+    text-decoration: none;
+}
+#nav-links{
+    font-size: 20px;
+    color: grey;
+    margin-left: 1rem;
+    text-decoration: none;
+}
