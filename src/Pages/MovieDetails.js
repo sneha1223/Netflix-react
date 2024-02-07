@@ -5,6 +5,7 @@ import { imageUrl } from '../Constants/Constants'
 
 
 function MovieDetails() {
+  
     const {id} = useParams()
     const [showDetails,setShowDetails] = useContext(showMoviesContext)
 

@@ -11,7 +11,7 @@ function LatestMovie() {
     axios.get(LatestMovies).then((value) => {
       console.log(value.data.results)
       setLatestMovies(value.data.results)
-    })
+    },[])
   })
   return (
     <div>

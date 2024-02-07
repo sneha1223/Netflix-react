@@ -41,7 +41,7 @@ function PopularMovie({ url, title }) {
                   <Card id='card' className='col-md-3 float-left'>
                     <Card.Img id='card-img' variant="top" src={`${imageUrl + obj.backdrop_path}`} />
                     <Card.Body>
-                      <Card.Title className='movie-title'>{obj.title}</Card.Title>
+                      <Card.Title style={{textDecoration:"none"}} className='movie-title'>{obj.title}</Card.Title>
                     </Card.Body>
                   </Card>
                 </Link>
